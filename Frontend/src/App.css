@@ -1,42 +1,45 @@
+/* Root container */
 #root {
-  max-width: 1280px;
+  max-width: 1480px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin-top: -90px;
+  text-align: left;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.app-title {
+  font-size: 2.5rem;
+  font-weight: 750;
+  color: white;
+  background: linear-gradient(135deg, rgba(102, 106, 234, 0.8), rgba(58, 52, 128, 0.8));
+  padding: 1.2rem 2.5rem;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 15px 40px rgba(102, 221, 234, 0.4);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.app-title:hover {
+  transform: translateY(-2px);
+}
+.headlogo {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .app-title {
+    font-size: 2rem;
+    padding: 1rem 2rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1.7rem;
+    padding: 0.8rem 1.5rem;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
