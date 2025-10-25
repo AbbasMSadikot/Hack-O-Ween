@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Vite / build
+Frontend/dist/
+Frontend/.vite/
+
+# Logs
+*.log
+
+# Environment variables
+*.env
+Backend/.env
+Frontend/.env
+
+# OS files
+.DS_Store
