@@ -1,7 +1,7 @@
 .app-header {
   position: fixed;
   top: 0;
-  left: -14rem;
+  left: -14.5rem;
   width: 100%;
   background:none;
   color: rgb(0, 0, 0);
@@ -29,4 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.logo{
+margin: 2px;
 }

@@ -1,0 +1,20 @@
+.pcbar {
+  position: fixed;
+  left: 80px;
+  top: 190px;
+  height: 35rem;
+  width: 18rem;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: #1b1b1b;
+  box-shadow: 0 3px 5px rgba(74, 0, 255, 0.25);
+  padding: 20px;
+  border-radius: 15px;
+  align-items: center;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  font-family: 'Inter', 'Poppins', sans-serif;
+}
+.pcbar:hover {
+  box-shadow: 0 0 3px 8px rgba(156, 117, 255, 0.434);
+}
