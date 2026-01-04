@@ -1,0 +1,58 @@
+.chatbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 2rem;
+  top: 30.5px;
+  height: 45rem;
+  width: 64rem;
+  background: linear-gradient(145deg, #ffffff25, #ffffff89);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: #1b1b1b;
+  box-shadow: 0 3px 5px rgba(74, 0, 255, 0.25);
+  padding: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  font-family: 'Inter', 'Poppins', sans-serif;
+}
+
+.chatbar:hover {
+  box-shadow: 0 0 5px 5px rgba(114, 137, 255, 0.434);
+}
+
+.header {
+  padding-bottom: 15px;
+  text-align: center;
+  border-bottom: 2px solid rgba(116, 67, 255, 0.1);
+  margin-bottom: 10px;
+}
+
+.header1 {
+  color: #667eea;
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.notice {
+  font-size: 13px;
+  border-radius: 18px;
+  width: 60rem;
+  border: 1px solid rgba(255, 166, 0, 0.279);
+  background-color: rgba(247, 236, 217, 0.598);
+  text-align: center;
+  padding-bottom: 10px;
+  height: 35px;
+  margin-left:55px;
+  margin-bottom: -15px;
+}
+.notice2 {
+  font-weight: 700;
+  color: #d68900;
+}
+
+.alert {
+  margin-right: 5px;
+  margin-top: 2px;
+}

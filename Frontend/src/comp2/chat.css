@@ -1,0 +1,141 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    padding: 20px;
+}
+
+.conversation-area {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    scroll-behavior: smooth;
+    margin-bottom: 10px;
+}
+
+.input-area {
+    display: flex;
+    padding: 10px 20px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    flex-shrink: 0; 
+}
+.chat-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.message {
+    display: flex;
+    margin-bottom: 15px;
+}
+.user-message {
+    justify-content: flex-end;
+}
+.ai-message {
+    justify-content: flex-start;
+}
+.message-bubble {
+    padding: 12px 18px;
+    border-radius: 20px;
+    max-width: 70%;
+    line-height: 1.5;
+    word-wrap: break-word;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+.user-message .message-bubble {
+    background-color: #5c35d1;
+    color: white;
+}
+.ai-message .message-bubble {
+    background-color: #f6f1fab0;
+    color: #26203b;
+    border: 1px solid #e0e0e0;
+    border-bottom-left-radius: 5px;
+}
+.ai-message .message-bubble:hover{
+    transform: translateX(1px);
+    background: linear-gradient(135deg, #e2e2ff, #cfc8ff);
+    box-shadow: 0 3px 12px rgba(74, 0, 255, 0.25);
+}
+.input-area {
+    display: flex;
+    padding: 10px;
+    height: 80px;
+    margin-bottom: -20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.input-area input {
+    flex-grow: 1;
+    border: none;
+    height: 55px;
+    width: 200px;
+    margin-top:-10px;
+    font-size: 16px;
+    outline: none;
+    word-wrap: break-word;
+}
+
+.send-button{
+    margin-right: 15px;
+}
+.send-button, .read-aloud-button {
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 50px;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-button:hover, .read-aloud-button:hover {
+    background-color: #3f36c4;
+}
+
+.read-aloud-button {
+    background-color: #6B7280; }
+.read-aloud-button:hover {
+    background-color: #4B5563;
+}
+.input-area input::placeholder {
+    color: #9CA3AF;
+}
+.loading-indicator {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    color: #6B7280;
+    margin-left: 10px;
+}
+.send-button svg {
+  margin-left: 0.3rem; }
+.sound-icon{
+    margin: 35px 20px;
+    scale: 1.5;
+    cursor: pointer;
+    color: gray;
+    margin-left: 0.5rem;
+    transition: color 0.2s;
+}
+.sound-icon.playing {
+  color: #6058d3 }

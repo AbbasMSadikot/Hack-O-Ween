@@ -1,0 +1,41 @@
+1. [LEGITIMATE] Your {SERVICE} verification code is 483210. Use this to complete your sign-in. Do not share this code with anyone.
+2. [LEGITIMATE] Delivery update: Your parcel (tracking #PX12345678) is out for delivery today between 2-6 PM. Track: {LINK}
+3. [LEGITIMATE] Appointment confirmed: Dr. Patel, 14 Nov 2025 at 10:30 AM. Reply C to confirm or R to reschedule.
+4. [LEGITIMATE] Your electricity bill of $45.60 for account ending **6789** is due on 05 Nov 2025. Pay now: {LINK}
+5. [LEGITIMATE] Welcome to {SERVICE}! Your account has been created. If you did not register, reply STOP or contact support at {PHONE}.
+6. [LEGITIMATE] Flight alert: Gate changed to A12 for flight AB123. Boarding begins at 14:45. Check gate map in the app.
+7. [LEGITIMATE] Your prescription is ready for pickup at City Pharmacy. Bring ID. Ref: RX-98765.
+8. [LEGITIMATE] Auto-login enabled on new device for {SERVICE}. If this wasn't you, reset your password immediately in the app.
+9. [LEGITIMATE] Reminder: Your subscription to {NEWS_LETTER} renews on 01 Dec 2025. Reply STOP to cancel.
+10. [LEGITIMATE] Bank alert: A direct deposit of $1,200 has posted to your account ****2345 on 20 Oct 2025.
+11. [LEGITIMATE] Charity receipt: Thank you for your donation of ₹500 to {CHARITY}. Receipt ID: DNT-4567.
+12. [LEGITIMATE] School notice: Parent-teacher meeting on 07 Nov 2025 at 3 PM in Hall B. Please confirm attendance by replying YES/NO.
+13. [LEGITIMATE] Two-factor authentication: code 729014 for {SERVICE}. Expires in 5 minutes.
+14. [LEGITIMATE] Account maintenance scheduled for 01 Nov 2025 00:00-02:00 UTC. Services may be briefly unavailable.
+15. [LEGITIMATE] Your meter reading was received. No action required. Thank you — {UTILITY}
+16. [LEGITIMATE] Cashback credited: ₹150 to your wallet for purchase at {STORE}. Available now.
+17. [LEGITIMATE] Event: Your ticket for Concert XYZ on 12 Dec 2025 is confirmed. Show QR at entry.
+18. [LEGITIMATE] Loan payment reminder: EMI of $250 due on 05 Nov 2025 for loan ID LN-3344. Pay via the app.
+19. [LEGITIMATE] Your insurance claim (CLM-778) status: Approved. Payout scheduled in 3–5 business days.
+20. [LEGITIMATE] System alert: Password changed successfully for your account at {SERVICE}. If you did not make this change contact support.
+
+21. [MALICIOUS - PHISHING] ALERT: Your {BANK} account has been locked due to suspicious activity. Verify now: {LINK}
+22. [MALICIOUS - PHISHING] You received a refund of $85. Click {LINK} to accept and confirm your details to claim.
+23. [MALICIOUS - SMISHING] Unauthorized login detected. Enter your OTP at {LINK} to secure your account immediately.
+24. [MALICIOUS - MALWARE LINK] Install the attached update to view your voicemail: {LINK} (Important security update)
+25. [MALICIOUS - SCAM] Congratulations! You have won a free smartphone. Reply with your full name and address to claim.
+26. [MALICIOUS - PHISHING] Update your payment method for {SERVICE} or your subscription will be cancelled: {LINK}
+27. [MALICIOUS - TECH SUPPORT SCAM] We detected a virus on your device. Call {PHONE} now for a free cleanup and remote assistance.
+28. [MALICIOUS - PHISHING] Your tax refund is pending. Provide your bank details here: {LINK} to process immediately.
+29. [MALICIOUS - SMISHING] Parcel delivery failed. Pay the clearance fee using the link: {LINK} to release your package.
+30. [MALICIOUS - SCAM] Help needed: I accidentally transferred money. Can you receive and return it? Reply YES if you can help.
+31. [MALICIOUS - PHISHING] Secure your account: Enter your username and password at {LINK} to avoid suspension.
+32. [MALICIOUS - MALWARE LINK] New voicemail attached. Download now: {LINK} (supports mp3).  
+33. [MALICIOUS - SCAM] Family emergency: I'm stuck abroad and need ₹50,000 urgently. Transfer to this account and call me.
+34. [MALICIOUS - PHISHING] Confirm recent transaction of $499. If not authorized, confirm identity at {LINK} immediately.
+35. [MALICIOUS - SOCIAL ENGINEERING] Want to earn money fast? Join this work-from-home scheme. Pay ₹2,000 registration at {LINK}.
+36. [MALICIOUS - SIM SWAP / ACCOUNT TAKEOVER] {BANK}: SIM change requested for account ending 1234. Reply CONFIRM to proceed or CALL {PHONE}.
+37. [MALICIOUS - PHISHING] Your cloud storage is almost full. Click {LINK} to upgrade and keep your files safe.
+38. [MALICIOUS - INVOICE SCAM] Invoice #INV-992 attached. Click to download and pay immediately: {LINK}
+39. [MALICIOUS - SPOOFED SERVICE] {SERVICE} support: We need to verify your identity. Send your ID photo and mother’s maiden name to proceed.
+40. [MALICIOUS - MALWARE/REDIRECT] Free movie download ready. Get the app here: {LINK}. (App installs hidden background software.)
